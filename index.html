@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Hyperspace by HTML5 UP</title>
+		<title>JTDev Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -21,12 +21,15 @@
 	<body class="is-preload">
 		<!-- Header -->
 			<header id="header">
-				<a href="index.html" class="title">Hyperspace</a>
+        <!-- TODO: Determine JTDev vs JTDEV  or other options-->
+				<a href="index.html" class="title">JTDEV</a>
 				<nav>
 					<ul>
 						<li><a href="index.html">Home</a></li>
-						<li><a href="generic.html">Generic</a></li>
-						<li><a href="elements.html">Elements</a></li>
+            <!-- TODO: Determine if I need these other pages right now -->
+            <!-- * Maybe more useful to use these as individual project pages -->
+						<!-- <li><a href="generic.html">Generic</a></li>
+						<li><a href="elements.html">Elements</a></li> -->
 					</ul>
 				</nav>
 			</header>
@@ -37,9 +40,9 @@
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-							<h1>Hyperspace</h1>
-							<p>Just another fine responsive site template designed by <a href="http://html5up.net">HTML5 UP</a><br />
-							and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
+							<h1>Jonah Thompson</h1>
+              <!-- TODO: Consider alternate taglines -->
+							<p>Here to help create your next web application</p>
 							<ul class="actions">
 								<li><a href="#one" class="button scrolly">Learn more</a></li>
 							</ul>
@@ -47,39 +50,51 @@
 					</section>
 		
 				<!-- One -->
+        <!-- Display projects -->
 					<section id="one" class="wrapper style2 spotlights">
 						<section>
-							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+							<a href="#" class="image"><img src="images/AlphaBlog2Sq.png" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Sed ipsum dolor</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>AlphaBlog</h2>
+									<p>This is a blog site that I created using Ruby on Rails. You can view browse articles, categories, and users while anonymous. 
+                    Upon acount creation you can create your own articles to display on the site. 
+                    This project taught me about the MVC model in Ruby on Rails, hashing user passwords, authenticating users, and creating/managing a relational database. </p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+										<li><a href="https://alpha-blog-jt2.herokuapp.com/" class="button">Live Site</a></li>
+                    <li><a href="https://github.com/jnhthomp/alpha-blog2" class="button">View on Github</a></li>
 									</ul>
 								</div>
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+							<a href="#" class="image"><img src="images/FoodOrderAppSq.png" alt="" data-position="top center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Feugiat consequat</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>Food Order Application</h2>
+									<p>This is a react project that allows the user to create and submit an order to a fictional restaurant. 
+                    It uses Firebase API to both fetch the menu data as well as submit user orders. 
+                    This application taught me about using fetch requests within React to handle incoming and outgoing data.
+                    I also learned how to utilize React context in order to manage sitewide state data.</p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+										<li><a href="https://jnhthomp.github.io/practice-food-order-app/" class="button">Live Site</a></li>
+                    <li><a href="https://github.com/jnhthomp/practice-food-order-app" class="button">View on Github</a></li>
 									</ul>
 								</div>
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+							<a href="#" class="image"><img src="images/StalksSq.png" alt="" data-position="25% 25%" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Ultricies aliquam</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>Stalks</h2>
+									<p>A Ruby on Rails application which allows you to make a profile and add stock tickers to follow to your portfolio.
+                    You can also add other users to see what stocks they are interested in and tracking.
+                    This application taught me about using third party gems such as Devise for simpler user authentification and API usage in Ruby on Rails applications.
+                  </p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+                    <li><a href="https://finance-tracker-jt.herokuapp.com/" class="button">Live Site</a></li>
+										<li><a href="https://github.com/jnhthomp/finance-tracker" class="button">View on Github</a></li>
 									</ul>
 								</div>
 							</div>
@@ -89,43 +104,52 @@
 				<!-- Two -->
 					<section id="two" class="wrapper style3 fade-up">
 						<div class="inner">
-							<h2>What we do</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<h2>My Skills</h2>
+							<p>I use an assortment of different technologies and skills to create and manage applications for your business. 
+                  Below are the ones I use most often but I am always looking for new things to learn and new challenges to undertake.</p>
 							<div class="features">
+                <!-- Icons used: https://fontawesome.com/v5/search?q=list&m=free -->
 								<section>
-									<span class="icon solid major fa-code"></span>
-									<h3>Lorem ipsum amet</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<span class="icon solid major"><i class="fab fa-react"></i></span>
+									<h3>React.js</h3>
+									<p>I utilize the React framework to create modern, modular, and responsive user interfaces.
+                  Including managing complex data and states with built in features
+                  such as React Context or third party libraries like Redux</p>
 								</section>
 								<section>
-									<span class="icon solid major fa-lock"></span>
-									<h3>Aliquam sed nullam</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<span class="icon solid major fa-gem"></span>
+									<h3>Ruby on Rails</h3>
+									<p>Utilizing the MVC framework Ruby on Rails is a powerful backend that can be used to manage data between the server and
+                  users for large applications. In the past I have used this to manage user authorization and real time updates within the app with websocket</p>
 								</section>
 								<section>
-									<span class="icon solid major fa-cog"></span>
-									<h3>Sed erat ullam corper</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<span class="icon solid major fa-database"></span>
+									<h3>PostgreSql</h3>
+									<p>Using SQL I am able to find and extract data from company databases to help business leaders make data-driven decisions
+                  on how to best support their customers.</p>
 								</section>
 								<section>
-									<span class="icon solid major fa-desktop"></span>
-									<h3>Veroeros quis lorem</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<span class="icon solid major fa-code-branch"></span>
+									<h3>Git</h3>
+									<p>Git is my version control of choice. 
+                    This allows me to work with other developers on your projects as well as ensure that if anything were to go wrong we can roll back to a previous working version.</p>
 								</section>
 								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>Urna quis bibendum</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<span class="icon solid major fa-project-diagram"></span>
+									<h3>Workflow Management</h3>
+									<p>Using workflow applications we can automate processes within your business. 
+                    In the past I have used this to drastically reduce the workload for customer facing employees so they have more time to focus on each individual customer.</p>
 								</section>
 								<section>
-									<span class="icon major fa-gem"></span>
-									<h3>Aliquam urna dapibus</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<span class="icon major fa-list-alt"></span>
+									<h3>Project Management</h3>
+									<p>I integrate user feedback and current processes to determine the best way to create new processes. This allows the user to quickly get up to speed with new features with as little friction as possible.</p>
 								</section>
 							</div>
-							<ul class="actions">
+              <!-- TODO: Learn more not currently needed, determine if I need a seperate page for this (probably not) -->
+							<!-- <ul class="actions">
 								<li><a href="generic.html" class="button">Learn more</a></li>
-							</ul>
+							</ul> -->
 						</div>
 					</section>
 		
@@ -133,7 +157,7 @@
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<p>Do you think I can help you or your company create their next web application? Use the form below or connect with me on social media!</p>
 							<div class="split style1">
 								<section>
 									<form method="post" action="#">
@@ -158,28 +182,28 @@
 								</section>
 								<section>
 									<ul class="contact">
-										<li>
+										<!-- <li>
 											<h3>Address</h3>
 											<span>12345 Somewhere Road #654<br />
 											Nashville, TN 00000-0000<br />
 											USA</span>
-										</li>
+										</li> -->
 										<li>
 											<h3>Email</h3>
-											<a href="#">user@untitled.tld</a>
+											<a href="#">jnh.thompson@gmail.com</a>
 										</li>
-										<li>
+										<!-- <li>
 											<h3>Phone</h3>
 											<span>(000) 000-0000</span>
-										</li>
+										</li> -->
 										<li>
 											<h3>Social</h3>
 											<ul class="icons">
-												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+												<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
+												<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+												<li><a href="https://github.com/jnhthomp" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<!-- <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
+												<li><a href="https://www.linkedin.com/in/jonah-thompson-91b74821a/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 											</ul>
 										</li>
 									</ul>
@@ -194,7 +218,7 @@
 			<footer id="footer" class="wrapper style1-alt">
 				<div class="inner">
 					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Site Manager: <a href="https://nift.cc">Nift</a></li>
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Site Manager: <a href="https://github.com/jnhthomp">JTDEV</a></li>
 					</ul>
 				</div>
 			</footer>
