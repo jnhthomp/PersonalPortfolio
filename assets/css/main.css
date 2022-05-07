@@ -1977,6 +1977,9 @@ input, select, textarea {
 				}
 
 /* Features */
+  span.icon.solid.major{
+    color: rgb(183, 78, 145);
+  }
 
 	.features {
 		display: -moz-flex;
