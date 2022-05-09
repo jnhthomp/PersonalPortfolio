@@ -188,3 +188,37 @@
 			});
 
 })(jQuery);
+
+// Add recently on github to about me
+async function getGitHubCommitData() {
+  const url = 'https://api.github.com/search/commits?q=author:jnhthomp&sort=author-date&order=desc&page=1'
+  const commitData = await fetch(url)
+    .then(res => res.json())
+    .then(data => {
+      // remove commits to private repos
+      const commitList = data.items.filter(el => !el.repository.private)
+      // Get most recent commit
+      const latestCommit = commitList[0]
+      // Construct object with most recent commit data
+      const latestCommitData = {
+        message: latestCommit.commit.message,
+        url: latestCommit.html_url
+      }
+
+      return latestCommitData
+    })
+    .catch(err => {
+      console.log(`error ${err}`)
+    });
+  // Return most recent commit data obj
+  return commitData
+}
+
+// Fetch recent commits from github and update dom
+getGitHubCommitData()
+  .then(data => {
+    // Add data to dom in about me
+    const gitInfoElement = document.getElementById('gitCommitInfo')
+    gitInfoElement.href = data.url
+    gitInfoElement.innerText = data.message
+  })
