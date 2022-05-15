@@ -2,6 +2,8 @@
 <a href="https://jtdev.netlify.app/" target="_blank" rel="noreferrer"> <img src="https://drive.google.com/uc?id=19ZZ2aDajCwqqMiawXZRcjEKScT1z5657" alt="JTDEV" width="100%" height="auto"/> </a> 
 Portfolio page for myself to allow potential employers/clients to learn more about me, my previous work, and skills. Also provides several methods of contact including social websites like LinkedIn and Github, my email, and a form which is available to me on the backend of the application. I also keep an up to date version of my resume hosted here on the site for anyone to access.
 
+<a href="https://jtdev.netlify.app/">Live Site!</a>
+
 <!-- Portfolio gif -->
 <a href="https://drive.google.com/uc?id=1xwTFXqJztz2s4_n1DeizRalJWZL7SM3v" target="_blank" rel="noreferrer"> <img src="https://drive.google.com/uc?id=1xwTFXqJztz2s4_n1DeizRalJWZL7SM3v" alt="Portfolio demo gif" width="100%" height="auto" /> </a> 
 
