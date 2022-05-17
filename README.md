@@ -2,8 +2,10 @@
 <a href="https://jtdev.netlify.app/" target="_blank" rel="noreferrer"> <img src="https://drive.google.com/uc?id=19ZZ2aDajCwqqMiawXZRcjEKScT1z5657" alt="JTDEV" width="100%" height="auto"/> </a> 
 Portfolio page for myself to allow potential employers/clients to learn more about me, my previous work, and skills. Also provides several methods of contact including social websites like LinkedIn and Github, my email, and a form which is available to me on the backend of the application. I also keep an up to date version of my resume hosted here on the site for anyone to access.
 
+<a href="https://jtdev.netlify.app/">Live Site!</a>
+
 <!-- Portfolio gif -->
-<a href="https://jtdev.netlify.app/" target="_blank" rel="noreferrer"> <video src="https://drive.google.com/uc?id=1W3sN7i7dttHLPxNqlu34hNB9TXiHaAFV" autoplay loop alt="JTDEV" width="100%" height="auto" /> </a> 
+<a href="https://drive.google.com/uc?id=1xwTFXqJztz2s4_n1DeizRalJWZL7SM3v" target="_blank" rel="noreferrer"> <img src="https://drive.google.com/uc?id=1xwTFXqJztz2s4_n1DeizRalJWZL7SM3v" alt="Portfolio demo gif" width="100%" height="auto" /> </a> 
 
 ## How It's Made:
 
@@ -17,7 +19,12 @@ I would like to convert this site to a React application, not necessarily becaus
 
 ## Other Examples:
 Take a look at other examples from my <a href="https://jtdev.netlify.app/">portfolio</a> using the lessons learned from these classes:
+
+
 **Blog Site W/ Categories and Authentification:** https://github.com/jnhthomp/alpha-blog2
+
 **Stock Based Social Network:** https://github.com/jnhthomp/finance-tracker
+
 **Restaurant Web-Based Ordering System:** https://github.com/jnhthomp/practice-food-order-app
+
 **F1 Discord Bot:** https://github.com/jnhthomp/f1-discord-bot
